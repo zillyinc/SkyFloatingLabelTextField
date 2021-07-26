@@ -302,7 +302,7 @@ open class SkyFloatingLabelTextField: UITextField { // swiftlint:disable:this ty
     @IBInspectable
     override open var text: String? {
         didSet {
-            updateControl(false)
+            updateControl(true)
         }
     }
 
